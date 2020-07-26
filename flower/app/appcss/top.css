@@ -1,0 +1,59 @@
+#top {
+    padding-top: 2px;
+    text-align: center;
+    height:180px;
+    width: auto;
+    margin: 0px;
+    min-width: 500px;
+}
+
+#top-top{
+    margin: auto;
+    height:130px;
+    border:2px ;
+    margin:1px; 
+    min-width: 500px;
+}
+
+#logopic,#info{
+    width:48%;
+    height:120px;
+    border:1px ;
+    margin:5px; 
+    float:left;
+  
+}
+
+
+#top-words{
+    margin: auto;
+    text-align: center;
+    height:30px;
+    border:2px;
+    margin:3px;  
+}
+
+#phone-number,#email,#comments{
+    color:red;
+    border: 2px;
+    margin: 5px;
+    font-size: 12px;
+    border:2px;
+    text-align: right;
+}
+
+
+#logo{
+    width: 95px;
+    height: 100px; 
+    margin-left: -250px;
+}
+
+
+#top-words>a{
+    display:inline-block;  
+    width:10%; 
+    text-align:center; 
+    text-decoration: none;
+}
+
