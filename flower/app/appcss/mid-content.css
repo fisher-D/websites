@@ -45,7 +45,6 @@
     margin: 2px;
     width: auto;
     justify-content: center;
-    border: 1px red solid;
     float: none;
     }
 
@@ -54,7 +53,6 @@ height: auto;
 width: auto;
 display:inline-flexbox;
 position: relative;
-border: 1px red solid;
 }
 
 .mid-pic-1,.mid-pic-2,.mid-pic-3{
