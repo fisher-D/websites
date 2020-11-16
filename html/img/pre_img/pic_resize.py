@@ -50,7 +50,7 @@ def process_image(path, filename, m_width=490, m_height=490):
 
 
 if __name__ == '__main__':
-    path = "D:/Web/websites/html/img/pre_img/11_16/"
+    path = "D:/Web/websites/html/img/pre_img/11_16_1/"
     file_names = search_image(path)
     for file in file_names:
         process_image(path, file)
