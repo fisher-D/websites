@@ -4,11 +4,11 @@
  * License: https://bootstrapmade.com/license/
  */
 
-(function($) {
+(function ($) {
     "use strict";
 
-    var burgerMenu = function() {
-        $('.burger').click(function(e) {
+    var burgerMenu = function () {
+        $('.burger').click(function (e) {
             $(window).scrollTop(0);
             if (!$('.burger').hasClass('active'))
                 $('.burger').addClass('active');
@@ -18,13 +18,13 @@
     }
     burgerMenu();
 
-    var siteIstotope = function() {
+    var siteIstotope = function () {
         var $container = $('#portfolio-grid').isotope({
             itemSelector: '.item',
             isFitWidth: true
         });
 
-        $(window).resize(function() {
+        $(window).resize(function () {
             $container.isotope({
                 columnWidth: '.col-sm-3'
             });
@@ -34,7 +34,7 @@
             filter: '*'
         });
 
-        $('#filters').on('click', 'a', function(e) {
+        $('#filters').on('click', 'a', function (e) {
             e.preventDefault();
             var filterValue = $(this).attr('data-filter');
             $container.isotope({
@@ -44,12 +44,12 @@
             $(this).addClass('active');
         });
     }
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         siteIstotope();
     });
 
 
-    var siteOwlCarousel = function() {
+    var siteOwlCarousel = function () {
         $('.testimonial-carousel').owlCarousel({
             center: true,
             items: 1,
